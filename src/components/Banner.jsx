@@ -2,11 +2,11 @@ import { useCallback, useEffect, useState } from "react";
 const Banner = () => {
   const [currentSlider, setCurrentSlider] = useState(0);
   const carouselImages = [
-    "https://source.unsplash.com/1200x540/?nature",
-    "https://source.unsplash.com/1200x540/?hill",
-    "https://source.unsplash.com/1200x540/?mountain",
-    "https://source.unsplash.com/1200x540/?river",
-    "https://source.unsplash.com/1200x540/?sea",
+    "https://i.ibb.co/18Y0FgB/slide1.jpg",
+    "https://i.ibb.co/X8K9vGF/slide2.jpg",
+    "https://i.ibb.co/vk9Q75J/slide3.jpg",
+    "https://i.ibb.co/sVJ7c9h/slide4.jpg",
+    "https://i.ibb.co/TWLYNkS/slide5.jpg",
   ];
   const prevSlider = () =>
     setCurrentSlider((currentSlider) =>
@@ -100,12 +100,20 @@ const Banner = () => {
         >
           {/* sliders */}
           {carouselImages.map((slide, inx) => (
-            <img
-              key={slide}
-              src={slide}
-              className="min-w-full h-60 bg-black/20 sm:h-96 md:h-[540px] object-cover"
-              alt={`Slider - ${inx + 1}`}
-            />
+            <>
+              <img
+                key={slide}
+                src={slide}
+                className="relative min-w-full h-80 bg-black/20 sm:h-96 md:h-[750px] bg-cover  object-fill"
+                alt={`Slider - ${inx + 1}`}
+              />
+              <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
+                <p className="text-xl md:text-2xl">Your paragraph here</p>
+                <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                  Your Button
+                </button>
+              </div>
+            </>
           ))}
         </div>
       </div>
