@@ -1,4 +1,6 @@
 import { FiArrowUpRight } from "react-icons/fi";
+import PopularRecipeCard from "./PopularRecipeCard";
+
 const PopularRecipe = () => {
   return (
     <section className="my-28 ">
@@ -9,7 +11,9 @@ const PopularRecipe = () => {
         </button>
       </div>
       <hr className="mt-3" />
-      <div></div>
+      <div>
+        <PopularRecipeCard></PopularRecipeCard>
+      </div>
     </section>
   );
 };

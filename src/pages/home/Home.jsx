@@ -1,6 +1,7 @@
 import Banner from "../../components/Banner";
 import Flovers from "../../components/Flovers";
-import PopularRecipe from "../../components/PopularRecipe";
+import PopularCategory from "../../components/PopularCategory";
+import PopularRecipe from "../../components/PopularRecipe/PopularRecipe";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <Banner></Banner>
       <Flovers></Flovers>
       <PopularRecipe></PopularRecipe>
+      <PopularCategory></PopularCategory>
     </div>
   );
 };

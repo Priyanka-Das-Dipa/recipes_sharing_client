@@ -1,0 +1,34 @@
+[
+  {
+    "image_url": "https://i.ibb.co/42G26pj/popular1.jpg",
+    "dish_name": "Sushi",
+    "chef_name": "Jiro Ono",
+    "dish_type": "Japanese Cuisine",
+    "rating": 4.8,
+    "description": "Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients such as seafood, often raw, and vegetables."
+  },
+  {
+    "image_url": "https://i.ibb.co/cvjX3ZD/popular2.jpg",
+    "dish_name": "Pizza Margherita",
+    "chef_name": "Antonio Starita",
+    "dish_type": "Italian Cuisine",
+    "rating": 4.7,
+    "description": "Pizza Margherita is a typical Neapolitan pizza, made with tomatoes, mozzarella cheese, fresh basil, salt, and extra-virgin olive oil."
+  },
+  {
+    "image_url": "https://i.ibb.co/PMkwNRF/popular3.jpg",
+    "dish_name": "Pad Thai",
+    "chef_name": "Thaninthorn Chantrawan",
+    "dish_type": "Thai Cuisine",
+    "rating": 4.5,
+    "description": "Pad Thai is a stir-fried rice noodle dish commonly served as a street food and at casual local eateries in Thailand. It is made with soaked dried rice noodles, which are stir-fried with eggs and chopped firm tofu, and flavored with tamarind pulp, fish sauce, dried shrimp, garlic or shallots, red chili pepper, and palm sugar."
+  },
+  {
+    "image_url": "https://i.ibb.co/4g5gMWj/popular4.jpg",
+    "dish_name": "Hamburger",
+    "chef_name": "Louis Lassen",
+    "dish_type": "American Cuisine",
+    "rating": 4.6,
+    "description": "A hamburger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan-fried, grilled, smoked, or flame-broiled."
+  }
+]
