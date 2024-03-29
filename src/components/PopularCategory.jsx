@@ -7,7 +7,7 @@ import cat4 from "../../public/images/cat4.jpg";
 const PopularCategory = () => {
   return (
     <div>
-      <div className="relative mb-36">
+      <div className="relative mb-72">
         <img
           src={back}
           alt=""
