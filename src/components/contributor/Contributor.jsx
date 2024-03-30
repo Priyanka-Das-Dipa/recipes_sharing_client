@@ -3,7 +3,7 @@ import img from "../../../public/images/contributor.jpg"
 const Contributor = () => {
   return (
     <section className="my-36">
-        <div className="flex gap-12 ">
+        <div className="flex-row md:flex gap-12 ">
       <div>
         <div className="space-y-2">
           <h1 className="uppercase text-primary font-semibold">Benefits</h1>
@@ -44,7 +44,7 @@ const Contributor = () => {
         </div>
       </div>
       <div>
-        <img src={img} alt="" className="w-[2050px] h-full bg-cover bg-no-repeat bg-fixed "/>
+        <img src={img} alt="" className="w-[2050px] h-full bg-cover bg-no-repeat bg-fixed mt-5 md:mt-0"/>
       </div>
     </div>
     </section>
