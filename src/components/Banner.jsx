@@ -101,13 +101,15 @@ const Banner = () => {
           {/* sliders */}
           {carouselImages.map((slide, inx) => (
             <>
-              <img
-                key={slide}
-                src={slide}
-                className="relative min-w-full h-80 bg-black/20 sm:h-96 md:h-[750px] bg-cover  object-fill"
-                alt={`Slider - ${inx + 1}`}
-              />
-              <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
+              <div className="relative  min-w-full h-80 bg-black/20 sm:h-96 md:h-[750px]">
+                <img
+                  key={inx}
+                  src={slide}
+                  className=" bg-cover  object-fill"
+                  alt={`Slider - ${inx + 1}`}
+                />
+              </div>
+              <div className="absolute w-full h-full top-0 left-0 inset-0 flex flex-col justify-center items-center text-white">
                 <p className="text-xl md:text-2xl">Your paragraph here</p>
                 <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
                   Your Button

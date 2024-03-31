@@ -1,13 +1,14 @@
-import chef from "../../../public/images/chef.jpg";
+// import chef from "../../../public/images/chef.jpg";
+import "./Update.css"
 const Update = () => {
   return (
     <div className="relative">
-      <img
+      {/* <img
         src={chef}
         alt=""
         className="absolute inset-0 w-full h-full bg-no-repeat bg-cover"
-      />
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
+      /> */}
+      <div className="absolute inset-0 flex flex-col items-center image-container justify-center">
         <form className="bg-white p-8 rounded-md shadow-md">
           <div className="flex gap-5">
             <div>

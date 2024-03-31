@@ -1,0 +1,6 @@
+.image-container {
+    background-image: url("../../../public/images/contributor.jpg");
+    height: 600px;
+    position: relative;
+
+}

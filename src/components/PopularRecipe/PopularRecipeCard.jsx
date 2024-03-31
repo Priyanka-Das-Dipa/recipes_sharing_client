@@ -1,14 +1,24 @@
-import { MdFavoriteBorder } from "react-icons/md";
-import { CiUser } from "react-icons/ci";
+// import { MdFavoriteBorder } from "react-icons/md";
+// import { CiUser } from "react-icons/ci";
 import usePopularRecipe from "../../hooks/usePopularRecipe";
 
 const PopularRecipeCard = () => {
   const [popularRecipe, ] = usePopularRecipe();
-  //   console.log(popularRecipe);
+    console.log(popularRecipe?.chef_name);
 
   return (
     <div>
-      <div className="px-4 py-8 shadow-lg max-w-[350px] font-sans rounded-xl space-y-6 my-20 mx-auto bg-white">
+      <div>
+        {
+          popularRecipe?.map((recipe) => (
+            <div key={recipe._id}>
+              {recipe?.chef_name}
+              {recipe?.dish_type}
+            </div>
+          ))
+        }
+      </div>
+      {/* <div className="px-4 py-8 shadow-lg max-w-[350px] font-sans rounded-xl space-y-6 my-20 mx-auto bg-white">
         <div className="flex justify-center w-full h-48 lg:h-[280px] relative">
           <div className="flex justify-between items-center left-4 right-4 top-4 absolute">
             <div className="flex items-center">
@@ -69,7 +79,7 @@ const PopularRecipeCard = () => {
             <span className="text-[#c7c7c5]">Add to Cart</span>
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

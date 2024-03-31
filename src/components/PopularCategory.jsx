@@ -22,26 +22,28 @@ const PopularCategory = () => {
             versatility.{" "}
           </p>
         </div>
-        <div className="absolute -bottom-44 grid grid-cols-1 md:grid-cols-4 gap-12 justify-center items-center ">
-          <div className="relative">
+        <div className="absolute  -bottom-44 grid grid-cols-1 md:grid-cols-4 gap-12 justify-center items-center ">
+          <div className="relative w-72 h-72 overflow-hidden group border-solid rounded-full border-8 border-white ">
+            <div className="absolute inset-0 bg-black opacity-50 rounded-full"></div>
             <img
               src={cat1}
               alt=""
-              className="w-72 rounded-full h-72 border-8 border-primary  bg-cover bg-no-repeat border-solid"
+              className=" group-hover:scale-100 scale-110 duration-200 rounded-full   bg-cover bg-no-repeat size-full"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-              <h3 className="text-lg font-semibold mt-3">Category Name 1</h3>
+              <h3 className="text-lg font-bold mt-3 text-white">
+                Category Name 1
+              </h3>
               <button className="px-4 py-2 mt-2 bg-primary text-white rounded-lg">
                 Discover Recipes
               </button>
             </div>
-            <div className="absolute inset-0 bg-black opacity-50 rounded-full"></div>
           </div>
-          <div className="relative">
+          <div className="relative w-72 h-72 overflow-hidden group border-solid rounded-full border-8 border-white ">
             <img
               src={cat2}
               alt=""
-              className="w-72 rounded-full h-72 border-8 border-primary  bg-cover bg-no-repeat border-solid"
+              className=" group-hover:scale-100 scale-110 duration-200 rounded-full   bg-cover bg-no-repeat size-full"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
               <h3 className="text-lg font-semibold mt-3">Category Name 1</h3>
@@ -51,11 +53,11 @@ const PopularCategory = () => {
             </div>
             <div className="absolute inset-0 bg-black opacity-50 rounded-full"></div>
           </div>
-          <div className="relative">
+          <div className="relative w-72 h-72 overflow-hidden group border-solid rounded-full border-8 border-white ">
             <img
               src={cat3}
               alt=""
-              className="w-72 rounded-full h-72 border-8 border-primary  bg-cover bg-no-repeat border-solid"
+              className=" group-hover:scale-100 scale-110 duration-200 rounded-full   bg-cover bg-no-repeat size-full"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
               <h3 className="text-lg font-semibold mt-3">Category Name 1</h3>
@@ -65,11 +67,11 @@ const PopularCategory = () => {
             </div>
             <div className="absolute inset-0 bg-black opacity-50 rounded-full"></div>
           </div>
-          <div className="relative">
+          <div className="relative w-72 h-72 overflow-hidden group border-solid rounded-full border-8 border-white ">
             <img
               src={cat4}
               alt=""
-              className="w-72 rounded-full h-72 border-8 border-primary bg-cover bg-no-repeat border-solid "
+              className=" group-hover:scale-100 scale-110 duration-200 rounded-full   bg-cover bg-no-repeat size-full"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
               <h3 className="text-lg font-semibold mt-3">Category Name 1</h3>

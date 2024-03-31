@@ -30,7 +30,7 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/">About us</Link>
+        <Link to="about">About us</Link>
       </li>
       <li>
         <Link to="/">Recipe List</Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="flex items-center justify-between bg-white px-4 py-2 text-white mb-5n">
+      <nav className="flex items-center justify-between bg-white px-4 py-2 text-black mb-5n">
         <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
           <img src={logo} alt="logo image" width={150} />
         </div>
