@@ -4,7 +4,7 @@ import NextLevel from "../../components/about/Nextlevel";
 
 const About = () => {
     return (
-        <div>
+        <div className="space-y-7">
             <NextLevel></NextLevel>
             <GetInTouch></GetInTouch>
         </div>

@@ -3,6 +3,7 @@ import { MdLightbulbOutline } from "react-icons/md";
 
 const NextLevel = () => {
     return (
+        
         <section className="my-36">
 
         <div className="flex gap-10 items-center">
