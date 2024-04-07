@@ -66,7 +66,7 @@ const Navbar = () => {
             >
               <FiMenu />
               {dropDownState && (
-                <ul className=" z-10  gap-2  bg-[#393E46] px-5 py-2 absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
+                <ul className=" z-10  gap-2  bg-white px-5 py-2 absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
                   {navLinks}
                 </ul>
               )}
