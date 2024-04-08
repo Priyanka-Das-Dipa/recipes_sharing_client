@@ -4,13 +4,12 @@ import { BsQuote } from "react-icons/bs";
 const Flovers = () => {
   return (
     <section className="my-56 ">
-      <div className="flex gap-16 items-center justify-center ">
+      <div className="lg:flex md:flex-row gap-16 items-center justify-center ">
         <div className="relative ">
           <img src={flover} alt="flover" className="rounded-xl" />
-          <div className="bg-white w-96 space-y-2 py-8 px-14 absolute -top-44 -left-5 rounded-lg text-center">
+          <div className="bg-white w-96 space-y-1 py-2 px-14 absolute -top-[4.5rem] -left-5 rounded-lg text-center">
             <div className="flex justify-center items-center">
-
-          <BsQuote className="text-5xl text-center text-yellow-500" />
+              <BsQuote className="text-5xl text-center text-yellow-500" />
             </div>
             <p className="font-bold text-xl text-center">
               “Ask not what you can do for your country. Ask what’s for lunch.”
