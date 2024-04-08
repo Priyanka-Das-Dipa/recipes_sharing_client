@@ -39,7 +39,7 @@ const Navbar = () => {
         <Link to="/">Join Contributor</Link>
       </li>
       <li>
-        <Link to="/">Contact us</Link>
+        <Link to="/contactus">Contact us</Link>
       </li>
       <li>
         <Link to="/">Pages</Link>
